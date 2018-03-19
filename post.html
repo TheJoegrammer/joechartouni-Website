@@ -8,18 +8,30 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - Start Bootstrap Theme</title>
+    <title>Joseph Chartouni</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
+    <link rel="icon" href="img/favicon1.png"> <!--THIS IS WHERE YOU MODIFY THE THING ON THE TAB.-->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
+    <!-- Bababoi -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><!--ADDED FOR CAROUSEL-->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><!--ADDED FOR CAROUSEL-->
+    <!-- Boom-->
+
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
+    <!-- Background-->
+    <link type="text/css" rel="stylesheet" href="stylesheet_carousel.css" />
+
+    <!-- Boom?-->
+    <link href="BootstrapReqs/bootstrap.min.css" rel="stylesheet">
+
 
   </head>
 
@@ -28,7 +40,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="index.html">18-500 Team B12</a>
+        <a class="navbar-brand" href="index.html">Joseph Chartouni</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -39,59 +51,287 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
+              <a class="nav-link" href="post.html">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="post.html">Weekly Updates</a>
+              <a class="nav-link" href="about.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/Working-together.jpg')">
+        <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/proj.jpg')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="post-heading">
-              <h1>Weekly Updates</h1>
-              
-              <span class="meta"> What did we do this week?</span>
+          <div class="col-lg-8 col-md-8 mx-auto">
+            <div class="page-heading">
+              <h1>Projects</h1>
+              <span class="subheading">The things I do when I can.</span>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Post Content -->
-    <article>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+  </ol>
 
-            <h2 class="section-heading">03/08/18</h2>
+  <!-- Wrapper for slides -->
 
-            This week, we all worked on the creation of this website as well as the design doc. We all met with Prof. Rowe and incorporated all of the feedback we received from our presentation in order to narrow the scope of our project and come up with a more feasible final-project. We finalized our initial architectural details, and feel like we can now move on to the implementation of our goal. We have most of the 2D algorithm constructed for SLAM, and are planning on expanding and moving it to 3D on a ROS environment soon. This has been done in OpenCV using C++. 
-            <br><br>
-            Below is the summation of details of the meeting we set up with Prof. Rowe
-                <br><br>
-                <img src="img/Plans.jpg" width="300" height="500">
-          </div>
-
-
-        </div>
-      </div>
-    </article>
+  <div class="carousel-inner">
+    <div class="item active">
 
 
-    <!-- Bootstrap core JavaScript -->
+      <body style="width: 100%">
+                <!-- Modal -->
+                <div class="outer-div">
+                <img src="img/6.png" class="crop">>
+                </div>
+                <div class="outer-div">
+                    <div class="modal-dialog" align="center">
+                    
+                      <!-- Modal content-->
+                      <div class="modal-content" align="center">
+                        <div class="modal-header">
+                          <P class="one">
+                            <strong>
+                            Lockheed Martin: Software Engineer <br>
+                            </strong>
+                          </P>
+                        </div>
+                        <div class="modal-body">  
+                        <p>Implemented more efficient message control on Gyrocam system, such as Set/Get Systems, Diagnostic, and Built-In-Test
+settings in System Controller CSCI. Updated existing Microsoft Visual Studio Test Graphical User Interface (GUI) significantly
+to implement new messages to validate embedded software. Updated Interface Control Document for new messages.</p>
+                         </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Learn More</button>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+
+                  </body>
+    
+    </div>
+
+    <!-- Support?-->
+     <!--<div class="jumbotron jumbotron-fluid" style="background-color:#CFD8DC;">
+        <h3>Gait Creation for Modular Robotics</h3>
+        <p>Worked over the summer in creating efficient 
+                         movement patterns for modularized robots
+                         moving through a granular medium.</p>
+      </div>-->
+                
+    <div class="item" >
+                <body style="width: 100%">
+                <!-- Modal -->
+                
+                <div class="outer-div">
+                <img src="img/2.png" class="crop">>
+                </div>
+                <div class="outer-div">
+                    <div class="modal-dialog" align="center">
+                    
+                      <!-- Modal content-->
+                      <div class="modal-content" align="center">
+                        <div class="modal-header">
+                          <P class="one">
+                            <strong>
+                            Gait Creation for Modular Robotics <br>
+                            </strong>
+                          </P>
+                        </div>
+                        <div class="modal-body">  
+                        <p>Worked over the summer in creating efficient 
+                         movement patterns for modularized robots
+                         moving through a granular medium.</p>
+                          
+                         </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Learn More</button>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </body>
+    </div>
+
+    <div class="item" >
+                <body style="width: 100%">
+                <!-- Modal -->
+                
+                <div class="outer-div">
+                <img src="img/3.png" class="crop">>
+                </div>
+                <div class="outer-div">
+                    <div class="modal-dialog" align="center">
+                    
+                      <!-- Modal content-->
+                      <div class="modal-content" align="center">
+                        <div class="modal-header">
+                          <P class="one">
+                            <strong>
+                            Red Robot Hackathon: The Burgler Buster <br>
+                            </strong>
+                          </P>
+                        </div>
+                        <div class="modal-body">  
+                        <p>Designed and constructed an automated,<br>
+                        roaming turret to recognize and shoot faces,<br>
+                        dubbed <strong>The Burglar Buster</strong>.</p>
+                          
+                         </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Learn More</button>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </body>
+    </div>
+
+    <div class="item" >
+                <body style="width: 100%">
+                <!-- Modal -->
+                
+                <div class="outer-div">
+                <img src="img/4.png" class="crop">>
+                </div>
+                <div class="outer-div">
+                    <div class="modal-dialog" align="center">
+                    
+                      <!-- Modal content-->
+                      <div class="modal-content" align="center">
+                        <div class="modal-header">
+                          <P class="one">
+                            <strong>
+                            15-112 Project: The Hero's Quest <br>
+                            </strong>
+                          </P>
+                        </div>
+                        <div class="modal-body">  
+                        <p>Designed and programmed a single-player RPG using Python,<br>
+                         based on adventuring and fighting through randomly<br>
+                         generated map designs.</p>
+                          
+                         </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Learn More</button>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </body>
+    </div>
+
+    <div class="item" >
+                <body  style="width: 100%">
+                <!-- Modal -->
+                
+                <div class="outer-div">
+                <img src="img/5.png" class="crop">
+                </div>
+                <div class="outer-div">
+                    <div class="modal-dialog" align="center">
+                    
+                      <!-- Modal content-->
+                      <div class="modal-content" align="center">
+                        <div class="modal-header">
+                          <P class="one">
+                            <strong>
+                            Research Assistant at Carnegie Mellon <br>
+                            </strong>
+                          </P>
+                        </div>
+                        <div class="modal-body">  
+                        <p>Worked as a research assistant to Prof. Howie<br>
+                         Choset by fabricating experimental mechanical <br>
+                         designs in Solidworksfor a multitude of projects.<br></p>
+                          
+                         </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Learn More</button>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </body>
+    </div>
+
+
+    <div class="item" >
+                <body style="width: 100%"><!--background="img/2.png"-->
+                <!-- Modal -->
+                
+                <div class="outer-div">
+                <img src="img/1.png" class="crop">>
+                </div>
+                <div class="outer-div">
+                    <div class="modal-dialog" align="center">
+                    
+                      <!-- Modal content-->
+                      <div class="modal-content" align="center">
+                        <div class="modal-header">
+                          <P class="one">
+                            <strong>
+                            CMU SURF Grant: Hydrostatic Surgery <br>
+                            </strong>
+                          </P>
+                        </div>
+                        <div class="modal-body">  
+                        <br>
+                        Working with Dr. Elif Ayvali and Prof. James Antaki<br>
+                        to develop a device that could assist in performing<br>
+                        zero gravity hydrostatic surgery.<br>
+                        <br>
+                        <br>
+                          
+                         </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Learn More</button>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </body>
+    </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+  <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
+
+    
+
+
 
   </body>
 
