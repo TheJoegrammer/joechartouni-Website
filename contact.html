@@ -23,11 +23,13 @@
     <link href="css/clean-blog.min.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="stylesheet.css" />
 
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!--ADDED FOR FADED-->
+
 
   </head>
 
   <body>
-
+    <div id="AllTheStuff">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
@@ -48,7 +50,7 @@
               <a class="nav-link" href="about.html">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="mailto:jchartou@andrew.cmu.edu?Subject=Contact%20from%20Website">Contact</a>
             </li>
           </ul>
         </div>
@@ -62,18 +64,18 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="page-heading">
-              <h1>Contact Me</h1>
+              <h1><b>Contact Me</b></h1>
               <span class="subheading">Have questions? Catch me up.</span>
             </div>
           </div>
         </div>
       </div>
     </header>
-
+    </div>
     <!-- Main Content -->
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="col-lg-8 col-md-10 mx-auto sized_text"> 
           <p>Want to get in touch? Fill out the form and we'll be in touch!</p>
           <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
           <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
@@ -94,13 +96,6 @@
               </div>
             </div>
             <div class="control-group">
-              <div class="form-group col-xs-12 floating-label-form-group controls">
-                <label>Phone Number</label>
-                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Message</label>
                 <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
@@ -110,7 +105,7 @@
             <br>
             <div id="success"></div>
             <div class="form-group">
-              <a href="mailto:jchartou@andrew.cmu.edu?subject=Email%20Subject">
+              <a href="mailto:danielgraf.developer@gmail.com?Subject=Contact%20from%Website" class="icon">
               <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
               </a>
             </div>
@@ -142,6 +137,15 @@
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item" onclick="window.location.href='https://www.linkedin.com/in/joseph-chartouni-0a6477ab/'">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+
                   </span>
                 </a>
               </li>

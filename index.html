@@ -23,6 +23,8 @@
     <link href="css/clean-blog.min.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="stylesheet.css" />
 
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!--ADDED FOR FADED-->
+
     
 
     
@@ -32,9 +34,10 @@
   <body>
 
     <!-- Navigation -->
+    <div id="AllTheStuff">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Joseph Chartouni</a>
+        <a class="navbar-brand" href="index.html"><b>Joseph Chartouni</b></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -51,12 +54,13 @@
               <a class="nav-link" href="about.html">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="mailto:jchartou@andrew.cmu.edu?Subject=Contact%20from%20Website">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    
 
     <!-- Page Header -->
     <header class="masthead" style="background-image: url('img/background.jpg')">
@@ -65,34 +69,36 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <h1>Joseph Chartouni</h1>
+              <h1><b>Joseph Chartouni</b></h1>
               <span class="subheading"> Who I am.</span>
             </div>
           </div>
         </div>
       </div>
     </header>
-
+    </div>
     <!-- Main Content -->
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
 
-          <div class="post-preview">
+          <div class="post-preview sized_text">
             <!--<a href="post.html"> -->
             <center>
               <h2 class="post-title">
-                Abstract
+                <b>Abstract</b>
               </h2>
               <p>
                 Hey all! I'm a Senior at Carnegie Mellon majoring in Electrical/Computer Engineering and minoring in Robotics. <p>
 				[This is a place where I keep my resume, projects, and contact information on hand. Please feel free to browse!]
                 <br><br>
                 Below is an old facebook profile pic to give an ~idea~ of what I look like.
-                
-                <img src="img/Chartouni.PNG" width="300" height="300" >
-                
+                <br>
+                </p>
               </p>
+                
+                <img src="img/Chartouni.PNG" width="50%">
+                
               </center>
             <!--</a> -->
           </div>
@@ -111,12 +117,13 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <ul class="list-inline text-center">
-              
+
               <li class="list-inline-item" onclick="window.location.href='https://www.facebook.com/joe.chartouni.1'">
                 <a href="#">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+
                   </span>
                 </a>
               </li>
@@ -128,8 +135,19 @@
                   </span>
                 </a>
               </li>
+              <li class="list-inline-item" onclick="window.location.href='https://www.linkedin.com/in/joseph-chartouni-0a6477ab/'">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+
+                  </span>
+                </a>
+              </li>
             </ul>
+            <div class="sized_text">
             <p class="copyright text-muted">Copyright &copy; Joseph Chartouni 2018</p>
+            </div>
           </div>
         </div>
       </div>
@@ -141,6 +159,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
+
 
   </body>
 

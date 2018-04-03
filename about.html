@@ -20,11 +20,14 @@
 
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!--ADDED FOR FADED-->
     
   </head>
 
   <body>
-
+    <div id="AllTheStuff">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
@@ -45,7 +48,7 @@
               <a class="nav-link" href="about.html">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="mailto:jchartou@andrew.cmu.edu?Subject=Contact%20from%20Website">Contact</a>
             </li>
           </ul>
         </div>
@@ -60,35 +63,47 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="page-heading">
-              <h1>About The Me</h1>
+              <h1><b>About The Me</b></h1>
               <span class="subheading">Some stuff I did.</span>
             </div>
           </div>
         </div>
       </div>
     </header>
-
+    </div>
     <!-- Main Content -->
-    <center>
-    <div class="container">
-      <div class="col-md-10">
+    <!--<center>
+    <div class="container" align="center">
+      <div class="col-md-10" >
           <a href="Chartouni_Joseph.pdf"> <img style="width: 100%" src="img/resumePic.PNG"> </a>
       </div>
     </div>
     <hr>
     </center>
+    -->
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+
+              <a href="Chartouni_Joseph.pdf"> <img style="width: 100%" src="img/resumePic.PNG"> </a>
+            </ul>
+          </div>
+        </div>
+      </div>
         <!-- Footer -->
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <ul class="list-inline text-center">
-              
+
               <li class="list-inline-item" onclick="window.location.href='https://www.facebook.com/joe.chartouni.1'">
                 <a href="#">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+
                   </span>
                 </a>
               </li>
@@ -100,8 +115,19 @@
                   </span>
                 </a>
               </li>
+              <li class="list-inline-item" onclick="window.location.href='https://www.linkedin.com/in/joseph-chartouni-0a6477ab/'">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+
+                  </span>
+                </a>
+              </li>
             </ul>
+            <div class="sized_text">
             <p class="copyright text-muted">Copyright &copy; Joseph Chartouni 2018</p>
+            </div>
           </div>
         </div>
       </div>
@@ -113,7 +139,6 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/clean-blog.min.js"></script>
 
   </body>
 

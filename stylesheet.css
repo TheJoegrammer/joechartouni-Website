@@ -13,7 +13,9 @@ img{
  }
 
  div.sized_text {
-    font-size: 15px;
+    font-size: 20px;
+    font-family: "Georgia", serif;
+
 }
 
 div.color_jumbo{
